@@ -44,6 +44,7 @@ dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
 dimen subtitle_shadow_radius
+drawable clock_logo
 drawable codex_logo
 drawable launch_background
 drawable notification_action_background
@@ -150,6 +151,7 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 mipmap ic_launcher
 raw a_long_cold_sting
+raw ring_tone
 string status_bar_notification_info_overflow
 style LaunchTheme
 style NormalTheme

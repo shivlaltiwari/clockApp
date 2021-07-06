@@ -285,9 +285,9 @@ class _AlarmPageState extends State<AlarmPage> {
       'alarm_notif',
       'alarm_notif',
       'Channel for Alarm notification',
-      icon: 'codex_logo',
+      icon:'clock_logo',
       sound: RawResourceAndroidNotificationSound('a_long_cold_sting'),
-      largeIcon: DrawableResourceAndroidBitmap('codex_logo'),
+      largeIcon: DrawableResourceAndroidBitmap('clock_logo'),
     );
 
     var iOSPlatformChannelSpecifics = IOSNotificationDetails(
@@ -298,7 +298,7 @@ class _AlarmPageState extends State<AlarmPage> {
     var platformChannelSpecifics = NotificationDetails(
         androidPlatformChannelSpecifics, iOSPlatformChannelSpecifics);
 
-    await flutterLocalNotificationsPlugin.schedule(0, 'Office', alarmInfo.title,
+    await flutterLocalNotificationsPlugin.schedule(0, 'Wake up', alarmInfo.title,
         scheduledNotificationDateTime, platformChannelSpecifics);
   }
 
