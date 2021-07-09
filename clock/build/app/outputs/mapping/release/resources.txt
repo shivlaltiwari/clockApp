@@ -201,6 +201,7 @@ Referenced Strings:
   PlatformPlugin
   PlatformViewsChannel
   PlatformViewsController
+  PonnamKarthik/fluttertoast
   PrivateApi
   RESOURCE
   RESUMED
@@ -423,9 +424,13 @@ Referenced Strings:
   base
   basic
   batch
+  bgcolor
   bigPicture
   bigPictureBitmapSource
   bigText
+  binding
+  binding.applicationContext
+  binding.binaryMessenger
   birthDateDay
   birthDateFull
   birthDateMonth
@@ -437,11 +442,13 @@ Referenced Strings:
   body
   bot
   cached_engine_id
+  call
   calledAt
   cancel
   cancelAll
   category
   cell
+  center
   channelAction
   channelDescription
   channelId
@@ -468,6 +475,7 @@ Referenced Strings:
   composingExtent
   content
   contentTitle
+  context
   contextMenu
   continueOnError
   conversationTitle
@@ -540,6 +548,7 @@ Referenced Strings:
   flutter/textinput
   flutter_assets
   flutter_deeplinking_enabled
+  fontSize
   forbidden
   framework
   fullStreetAddress
@@ -560,6 +569,7 @@ Referenced Strings:
   givenName
   grab
   grabbing
+  gravity
   groupAlertBehavior
   groupConversation
   groupKey
@@ -615,12 +625,14 @@ Referenced Strings:
   label
   largeIcon
   largeIconBitmapSource
+  layout_inflater
   ledColorAlpha
   ledColorBlue
   ledColorGreen
   ledColorRed
   ledOffMs
   ledOnMs
+  length
   libapp.so
   libcore.icu.ICU
   libflutter.so
@@ -629,17 +641,20 @@ Referenced Strings:
   loadingUnitId
   locale
   logLevel
+  long
   longPress
   mChildNodeIds
   mH
   mNextServedView
   mServedView
+  mToast
   main
   maxProgress
   media_item
   memoryPressure
   message
   messages
+  messenger
   metaState
   method
   middleInitial
@@ -648,6 +663,7 @@ Referenced Strings:
   minute
   month
   move
+  msg
   name
   namePrefix
   nameSuffix
@@ -691,6 +707,7 @@ Referenced Strings:
   options
   overlay
   override
+  p0
   packageName:
   params
   password
@@ -785,6 +802,7 @@ Referenced Strings:
   showBadge
   showDailyAtTime
   showProgress
+  showToast
   showWeeklyAtDayAndTime
   showWhen
   showsUserInterface
@@ -818,6 +836,7 @@ Referenced Strings:
   text/plain
   textCapitalization
   textScaleFactor
+  textcolor
   texture
   theUnsafe
   ticker
@@ -828,6 +847,7 @@ Referenced Strings:
   tint_mode
   title
   tooltip
+  top
   touch
   transform
   transition_animation_scale
@@ -931,17 +951,17 @@ Marking dimen:notification_small_icon_size_as_large:2130903058 used because its 
 Marking dimen:notification_subtext_size:2130903059 used because its prefix matches string pool constant notification
 Marking dimen:notification_top_pad:2130903060 used because its prefix matches string pool constant notification
 Marking dimen:notification_top_pad_large_text:2130903061 used because its prefix matches string pool constant notification
-Marking drawable:notification_action_background:2130968579 used because its prefix matches string pool constant notification
-Marking drawable:notification_bg:2130968580 used because its prefix matches string pool constant notification
-Marking drawable:notification_bg_low:2130968581 used because its prefix matches string pool constant notification
-Marking drawable:notification_bg_low_normal:2130968582 used because its prefix matches string pool constant notification
-Marking drawable:notification_bg_low_pressed:2130968583 used because its prefix matches string pool constant notification
-Marking drawable:notification_bg_normal:2130968584 used because its prefix matches string pool constant notification
-Marking drawable:notification_bg_normal_pressed:2130968585 used because its prefix matches string pool constant notification
-Marking drawable:notification_icon_background:2130968586 used because its prefix matches string pool constant notification
-Marking drawable:notification_template_icon_bg:2130968587 used because its prefix matches string pool constant notification
-Marking drawable:notification_template_icon_low_bg:2130968588 used because its prefix matches string pool constant notification
-Marking drawable:notification_tile_bg:2130968589 used because its prefix matches string pool constant notification
+Marking drawable:notification_action_background:2130968580 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg:2130968581 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg_low:2130968582 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg_low_normal:2130968583 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg_low_pressed:2130968584 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg_normal:2130968585 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg_normal_pressed:2130968586 used because its prefix matches string pool constant notification
+Marking drawable:notification_icon_background:2130968587 used because its prefix matches string pool constant notification
+Marking drawable:notification_template_icon_bg:2130968588 used because its prefix matches string pool constant notification
+Marking drawable:notification_template_icon_low_bg:2130968589 used because its prefix matches string pool constant notification
+Marking drawable:notification_tile_bg:2130968590 used because its prefix matches string pool constant notification
 Marking id:notification_background:2131034166 used because its prefix matches string pool constant notification
 Marking id:notification_main_column:2131034167 used because its prefix matches string pool constant notification
 Marking id:notification_main_column_container:2131034168 used because its prefix matches string pool constant notification
@@ -977,25 +997,26 @@ Marking drawable:codex_logo:2130968577 used because its prefix matches string po
 Resource Reference Graph:
 color:notification_action_color_filter:2130837504 => [color:secondary_text_default_material_light:2130837510]
 dimen:notification_media_narrow_margin:2130903054 => [dimen:notification_content_margin_start:2130903050]
-drawable:notification_action_background:2130968579 => [color:ripple_material_light:2130837508, dimen:compat_button_inset_vertical_material:2130903041, dimen:compat_button_inset_horizontal_material:2130903040, dimen:compat_control_corner_material:2130903044, dimen:compat_button_padding_vertical_material:2130903043, dimen:compat_button_padding_horizontal_material:2130903042]
-drawable:notification_bg:2130968580 => [drawable:notification_bg_normal_pressed:2130968585, drawable:notification_bg_normal:2130968584]
-drawable:notification_bg_low:2130968581 => [drawable:notification_bg_low_pressed:2130968583, drawable:notification_bg_low_normal:2130968582]
-drawable:notification_icon_background:2130968586 => [color:notification_icon_bg_color:2130837505]
-drawable:notification_tile_bg:2130968589 => [drawable:notify_panel_notification_icon_bg:2130968590]
+drawable:notification_action_background:2130968580 => [color:ripple_material_light:2130837508, dimen:compat_button_inset_vertical_material:2130903041, dimen:compat_button_inset_horizontal_material:2130903040, dimen:compat_control_corner_material:2130903044, dimen:compat_button_padding_vertical_material:2130903043, dimen:compat_button_padding_horizontal_material:2130903042]
+drawable:notification_bg:2130968581 => [drawable:notification_bg_normal_pressed:2130968586, drawable:notification_bg_normal:2130968585]
+drawable:notification_bg_low:2130968582 => [drawable:notification_bg_low_pressed:2130968584, drawable:notification_bg_low_normal:2130968583]
+drawable:notification_icon_background:2130968587 => [color:notification_icon_bg_color:2130837505]
+drawable:notification_tile_bg:2130968590 => [drawable:notify_panel_notification_icon_bg:2130968591]
 layout:notification_action:2131165185 => [style:Widget_Compat_NotificationActionContainer:2131427340, dimen:notification_action_icon_size:2130903047, style:Widget_Compat_NotificationActionText:2131427341]
 layout:notification_action_tombstone:2131165186 => [style:Widget_Compat_NotificationActionContainer:2131427340, dimen:notification_action_icon_size:2130903047, style:Widget_Compat_NotificationActionText:2131427341]
 layout:notification_template_big_media:2131165189 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, layout:notification_template_icon_group:2131165194, layout:notification_media_cancel_action:2131165188, id:cancel_action:2131034153, layout:notification_template_lines_media:2131165195, id:media_actions:2131034164]
 layout:notification_template_big_media_custom:2131165190 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, layout:notification_template_icon_group:2131165194, layout:notification_media_cancel_action:2131165188, id:cancel_action:2131034153, dimen:notification_main_column_padding_top:2130903053, dimen:notification_content_margin_start:2130903050, dimen:notification_right_side_padding_top:2130903056, style:TextAppearance_Compat_Notification_Time_Media:2131427337, style:TextAppearance_Compat_Notification_Info_Media:2131427332, id:media_actions:2131034164]
 layout:notification_template_big_media_narrow:2131165191 => [layout:notification_media_cancel_action:2131165188, id:cancel_action:2131034153, layout:notification_template_lines_media:2131165195, id:icon:2131034158, id:media_actions:2131034164]
 layout:notification_template_big_media_narrow_custom:2131165192 => [layout:notification_media_cancel_action:2131165188, id:cancel_action:2131034153, dimen:notification_large_icon_height:2130903051, dimen:notification_main_column_padding_top:2130903053, dimen:notification_media_narrow_margin:2130903054, dimen:notification_right_side_padding_top:2130903056, style:TextAppearance_Compat_Notification_Time_Media:2131427337, style:TextAppearance_Compat_Notification_Info_Media:2131427332, id:icon:2131034158, id:media_actions:2131034164]
-layout:notification_template_custom_big:2131165193 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, dimen:notification_main_column_padding_top:2130903053, dimen:notification_content_margin_start:2130903050, dimen:notification_right_side_padding_top:2130903056, layout:notification_template_part_time:2131165199, layout:notification_template_part_chronometer:2131165198, style:TextAppearance_Compat_Notification_Info:2131427331, layout:notification_template_icon_group:2131165194]
+layout:notification_template_custom_big:2131165193 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, layout:notification_template_icon_group:2131165194, dimen:notification_right_side_padding_top:2130903056, layout:notification_template_part_time:2131165199, layout:notification_template_part_chronometer:2131165198, style:TextAppearance_Compat_Notification_Info:2131427331]
 layout:notification_template_icon_group:2131165194 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, dimen:notification_big_circle_margin:2130903049, dimen:notification_right_icon_size:2130903055]
 layout:notification_template_lines_media:2131165195 => [dimen:notification_content_margin_start:2130903050, style:TextAppearance_Compat_Notification_Title_Media:2131427339, style:TextAppearance_Compat_Notification_Time_Media:2131427337, style:TextAppearance_Compat_Notification_Line2_Media:2131427334, style:TextAppearance_Compat_Notification_Media:2131427335, style:TextAppearance_Compat_Notification_Info_Media:2131427332]
 layout:notification_template_media:2131165196 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, layout:notification_template_icon_group:2131165194, layout:notification_template_lines_media:2131165195, layout:notification_media_cancel_action:2131165188]
 layout:notification_template_media_custom:2131165197 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, layout:notification_template_icon_group:2131165194, id:cancel_action:2131034153, dimen:notification_main_column_padding_top:2130903053, dimen:notification_content_margin_start:2130903050, dimen:notification_right_side_padding_top:2130903056, style:TextAppearance_Compat_Notification_Time_Media:2131427337, style:TextAppearance_Compat_Notification_Info_Media:2131427332, layout:notification_media_cancel_action:2131165188]
 layout:notification_template_part_chronometer:2131165198 => [style:TextAppearance_Compat_Notification_Time:2131427336]
 layout:notification_template_part_time:2131165199 => [style:TextAppearance_Compat_Notification_Time:2131427336]
-style:LaunchTheme:2131427328 => [drawable:launch_background:2130968578]
+layout:toast_custom:2131165200 => [drawable:corner:2130968578]
+style:LaunchTheme:2131427328 => [drawable:launch_background:2130968579]
 style:TextAppearance_Compat_Notification_Info:2131427331 => [style:TextAppearance_Compat_Notification:2131427330, style:TextAppearance_Compat:-1, style:TextAppearance:-1]
 style:TextAppearance_Compat_Notification_Info_Media:2131427332 => [style:TextAppearance_Compat_Notification_Info:2131427331, style:TextAppearance_Compat_Notification:2131427330, style:TextAppearance_Compat:-1, style:TextAppearance:-1, color:secondary_text_default_material_dark:2130837509]
 style:TextAppearance_Compat_Notification_Line2:2131427333 => [style:TextAppearance_Compat_Notification_Info:2131427331]
@@ -1004,7 +1025,7 @@ style:TextAppearance_Compat_Notification_Media:2131427335 => [style:TextAppearan
 style:TextAppearance_Compat_Notification_Time:2131427336 => [style:TextAppearance_Compat_Notification:2131427330, style:TextAppearance_Compat:-1, style:TextAppearance:-1]
 style:TextAppearance_Compat_Notification_Time_Media:2131427337 => [style:TextAppearance_Compat_Notification_Time:2131427336, style:TextAppearance_Compat_Notification:2131427330, style:TextAppearance_Compat:-1, style:TextAppearance:-1, color:secondary_text_default_material_dark:2130837509]
 style:TextAppearance_Compat_Notification_Title_Media:2131427339 => [style:TextAppearance_Compat_Notification_Title:2131427338, style:TextAppearance_Compat_Notification:2131427330, style:TextAppearance_Compat:-1, style:TextAppearance:-1, color:primary_text_default_material_dark:2130837507]
-style:Widget_Compat_NotificationActionContainer:2131427340 => [drawable:notification_action_background:2130968579]
+style:Widget_Compat_NotificationActionContainer:2131427340 => [drawable:notification_action_background:2130968580]
 style:Widget_Compat_NotificationActionText:2131427341 => [color:secondary_text_default_material_light:2130837510, dimen:notification_action_text_size:2130903048]
 
 The root reachable resources are:
@@ -1031,18 +1052,19 @@ color:notification_action_color_filter:2130837504,
    dimen:notification_top_pad:2130903060,
    dimen:notification_top_pad_large_text:2130903061,
    drawable:codex_logo:2130968577,
-   drawable:launch_background:2130968578,
-   drawable:notification_action_background:2130968579,
-   drawable:notification_bg:2130968580,
-   drawable:notification_bg_low:2130968581,
-   drawable:notification_bg_low_normal:2130968582,
-   drawable:notification_bg_low_pressed:2130968583,
-   drawable:notification_bg_normal:2130968584,
-   drawable:notification_bg_normal_pressed:2130968585,
-   drawable:notification_icon_background:2130968586,
-   drawable:notification_template_icon_bg:2130968587,
-   drawable:notification_template_icon_low_bg:2130968588,
-   drawable:notification_tile_bg:2130968589,
+   drawable:corner:2130968578,
+   drawable:launch_background:2130968579,
+   drawable:notification_action_background:2130968580,
+   drawable:notification_bg:2130968581,
+   drawable:notification_bg_low:2130968582,
+   drawable:notification_bg_low_normal:2130968583,
+   drawable:notification_bg_low_pressed:2130968584,
+   drawable:notification_bg_normal:2130968585,
+   drawable:notification_bg_normal_pressed:2130968586,
+   drawable:notification_icon_background:2130968587,
+   drawable:notification_template_icon_bg:2130968588,
+   drawable:notification_template_icon_low_bg:2130968589,
+   drawable:notification_tile_bg:2130968590,
    id:accessibility_action_clickable_span:2131034112,
    id:accessibility_custom_action_0:2131034113,
    id:accessibility_custom_action_1:2131034114,
@@ -1117,6 +1139,7 @@ color:notification_action_color_filter:2130837504,
    layout:notification_template_media_custom:2131165197,
    layout:notification_template_part_chronometer:2131165198,
    layout:notification_template_part_time:2131165199,
+   layout:toast_custom:2131165200,
    mipmap:ic_launcher:2131230720,
    string:status_bar_notification_info_overflow:2131361792,
    style:LaunchTheme:2131427328,
@@ -1142,5 +1165,6 @@ color:notification_action_color_filter:2130837504,
    attr:android_tileMode:-1,
    attr:android_offset:-1
 Skipped unused resource res/drawable/clock_logo.png: 3656 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable/toast_bg.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/layout/custom_dialog.xml: -1 bytes (replaced with small dummy file of size 104 bytes)
 Skipped unused resource res/raw/a_long_cold_sting.wav: 2575142 bytes (replaced with small dummy file of size 0 bytes)

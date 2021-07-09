@@ -5,7 +5,7 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:intl/intl.dart';
-
+import 'package:fluttertoast/fluttertoast.dart';
 import '../main.dart';
 
 class AlarmPage extends StatefulWidget {
@@ -22,11 +22,34 @@ class _AlarmPageState extends State<AlarmPage> {
 
   @override
   void initState() {
-    _alarmTime = DateTime.now();
-    _alarmHelper.initializeDatabase().then((value) {
-      print('------database intialized');
+    try{
+       _alarmTime = DateTime.now();
+       _alarmHelper.initializeDatabase().then((value) {
+      Fluttertoast.showToast(
+        msg: "database intialized",
+        toastLength: Toast.LENGTH_SHORT,
+        gravity: ToastGravity.CENTER,
+        timeInSecForIosWeb: 1,
+        backgroundColor: Colors.red,
+        textColor: Colors.white,
+        fontSize: 16.0
+    );
+
+      print('------database intialized------------');
       loadAlarms();
     });
+    } catch(e){
+      Fluttertoast.showToast(
+        msg: e.toString(),
+        toastLength: Toast.LENGTH_SHORT,
+        gravity: ToastGravity.CENTER,
+        timeInSecForIosWeb: 1,
+        backgroundColor: Colors.red,
+        textColor: Colors.white,
+        fontSize: 16.0
+    );
+    }
+   
     super.initState();
   }
 
@@ -303,21 +326,34 @@ class _AlarmPageState extends State<AlarmPage> {
   }
 
   void onSaveAlarm() {
-    DateTime scheduleAlarmDateTime;
-    if (_alarmTime.isAfter(DateTime.now()))
-      scheduleAlarmDateTime = _alarmTime;
-    else
-      scheduleAlarmDateTime = _alarmTime.add(Duration(days: 1));
+    try{
+      DateTime scheduleAlarmDateTime;
+      if (_alarmTime.isAfter(DateTime.now()))
+        scheduleAlarmDateTime = _alarmTime;
+      else
+        scheduleAlarmDateTime = _alarmTime.add(Duration(days: 1));
 
-    var alarmInfo = AlarmInfo(
-      alarmDateTime: scheduleAlarmDateTime,
-      gradientColorIndex: _currentAlarms.length,
-      title: 'alarm',
+      var alarmInfo = AlarmInfo(
+        alarmDateTime: scheduleAlarmDateTime,
+        gradientColorIndex: _currentAlarms.length,
+        title: 'alarm',
+      );
+      _alarmHelper.insertAlarm(alarmInfo);
+      scheduleAlarm(scheduleAlarmDateTime, alarmInfo);
+      Navigator.pop(context);
+      loadAlarms();
+    }catch(e){
+      //show sncakbar here
+      Fluttertoast.showToast(
+        msg:e.toString(),
+        toastLength: Toast.LENGTH_LONG,
+        gravity: ToastGravity.CENTER,
+        timeInSecForIosWeb: 1,
+        backgroundColor: Colors.red,
+        textColor: Colors.white,
+        fontSize: 16.0
     );
-    _alarmHelper.insertAlarm(alarmInfo);
-    scheduleAlarm(scheduleAlarmDateTime, alarmInfo);
-    Navigator.pop(context);
-    loadAlarms();
+    }
   }
 
   void deleteAlarm(int id) {

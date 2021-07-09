@@ -8,10 +8,6 @@
         "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\layout\\custom_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\layout-v16_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\layout-v16\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_media_action.xml.flat",
         "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\333a1c851fce95274a1c02b6cf2bfc8f\\media-1.1.0\\res\\layout\\notification_media_action.xml"
     },
@@ -36,12 +32,12 @@
         "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\drawable_corner.xml.flat",
+        "source": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\fluttertoast\\intermediates\\packaged_res\\release\\drawable\\corner.xml"
     },
     {
         "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -78,6 +74,10 @@
     {
         "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\layout_toast_custom.xml.flat",
+        "source": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\fluttertoast\\intermediates\\packaged_res\\release\\layout\\toast_custom.xml"
     },
     {
         "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -140,10 +140,6 @@
         "source": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_action.xml.flat",
-        "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\layout\\notification_action.xml"
-    },
-    {
         "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_template_part_time.xml.flat",
         "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\layout\\notification_template_part_time.xml"
     },
@@ -156,16 +152,16 @@
         "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\333a1c851fce95274a1c02b6cf2bfc8f\\media-1.1.0\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\layout_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\layout-v21_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\drawable_toast_bg.xml.flat",
+        "source": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\fluttertoast\\intermediates\\packaged_res\\release\\drawable\\toast_bg.xml"
     },
     {
         "merged": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\drawable_codex_logo.png.flat",

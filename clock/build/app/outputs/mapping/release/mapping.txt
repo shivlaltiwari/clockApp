@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 1.5.64
-# min_api: 16
-# pg_map_id: 087b7e1
+# min_api: 21
+# pg_map_id: b8457da
 android.support.v4.app.INotificationSideChannel -> android.support.v4.app.a:
     void cancel(java.lang.String,int,java.lang.String) -> a
     void cancelAll(java.lang.String) -> a
@@ -4452,3 +4452,34 @@ io.flutter.view.VsyncWaiter$1 -> io.flutter.view.f$a:
 io.flutter.view.VsyncWaiter$1$1 -> io.flutter.view.f$a$a:
     long val$cookie -> a
     io.flutter.view.VsyncWaiter$1 this$1 -> b
+io.github.ponnamkarthik.toast.fluttertoast.FlutterToastPlugin -> d.b.a.a.a.a:
+    io.flutter.plugin.common.MethodChannel channel -> a
+    void onDetachedFromEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding) -> a
+    void setupChannel(io.flutter.plugin.common.BinaryMessenger,android.content.Context) -> a
+    void teardownChannel() -> a
+    void onAttachedToEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding) -> b
+io.github.ponnamkarthik.toast.fluttertoast.FlutterToastPlugin$Companion -> d.b.a.a.a.a$a:
+io.github.ponnamkarthik.toast.fluttertoast.MethodCallHandlerImpl -> d.b.a.a.a.b:
+    android.widget.Toast mToast -> a
+    android.content.Context context -> b
+    android.widget.Toast access$getMToast$p(io.github.ponnamkarthik.toast.fluttertoast.MethodCallHandlerImpl) -> a
+    void onMethodCall(io.flutter.plugin.common.MethodCall,io.flutter.plugin.common.MethodChannel$Result) -> a
+io.github.ponnamkarthik.toast.fluttertoast.MethodCallHandlerImpl$onMethodCall$1 -> d.b.a.a.a.b$a:
+    io.github.ponnamkarthik.toast.fluttertoast.MethodCallHandlerImpl this$0 -> a
+io.github.ponnamkarthik.toast.fluttertoast.R$drawable -> d.b.a.a.a.c:
+io.github.ponnamkarthik.toast.fluttertoast.R$id -> d.b.a.a.a.d:
+io.github.ponnamkarthik.toast.fluttertoast.R$layout -> d.b.a.a.a.e:
+kotlin.KotlinNullPointerException -> e.a:
+kotlin.TypeCastException -> e.b:
+kotlin.UninitializedPropertyAccessException -> e.c:
+kotlin.jvm.internal.DefaultConstructorMarker -> e.d.a.a:
+kotlin.jvm.internal.Intrinsics -> e.d.a.b:
+    boolean areEqual(java.lang.Object,java.lang.Object) -> a
+    void checkExpressionValueIsNotNull(java.lang.Object,java.lang.String) -> a
+    java.lang.Throwable sanitizeStackTrace(java.lang.Throwable) -> a
+    java.lang.Throwable sanitizeStackTrace(java.lang.Throwable,java.lang.String) -> a
+    void throwNpe() -> a
+    void throwParameterIsNullException(java.lang.String) -> a
+    void checkParameterIsNotNull(java.lang.Object,java.lang.String) -> b
+    void throwUninitializedProperty(java.lang.String) -> b
+    void throwUninitializedPropertyAccessException(java.lang.String) -> c

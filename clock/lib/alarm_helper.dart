@@ -1,4 +1,5 @@
 import 'package:clock_app/models/alarm_info.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:sqflite/sqlite_api.dart';
 
@@ -45,6 +46,15 @@ class AlarmHelper {
           $columnColorIndex integer)
         ''');
       },
+    );
+       Fluttertoast.showToast(
+        msg:'Database Created',
+        toastLength: Toast.LENGTH_LONG,
+        gravity: ToastGravity.CENTER,
+        timeInSecForIosWeb: 1,
+        //backgroundColor: Colors.red,
+        //textColor: Colors.white,
+        fontSize: 16.0
     );
     return database;
   }

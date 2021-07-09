@@ -12,8 +12,8 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:58:5-66
-14-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:58:22-64
+14-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:59:5-66
+14-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:59:22-64
 15    <!--
 16     io.flutter.app.FlutterApplication is an android.app.Application that
 17         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -27,97 +27,103 @@
 23    <uses-permission android:name="android.permission.VIBRATE" />
 23-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:9:5-66
 23-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:9:22-63
-24
-25    <application
-25-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:12:5-57:19
-26        android:name="io.flutter.app.FlutterApplication"
-26-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:13:9-57
-27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.2.0] C:\Users\shiva\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:24:18-86
-28        android:debuggable="true"
-29        android:icon="@mipmap/ic_launcher"
-29-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:15:9-43
-30        android:label="Clock" >
-30-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:14:9-30
-31        <activity
-31-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:16:9-44:20
-32            android:name="com.example.clock_app.MainActivity"
-32-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:17:13-41
-33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-33-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:20:13-163
-34            android:hardwareAccelerated="true"
-34-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:21:13-47
-35            android:launchMode="singleTop"
-35-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:18:13-43
-36            android:theme="@style/LaunchTheme"
-36-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:19:13-47
-37            android:windowSoftInputMode="adjustResize" >
-37-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:22:13-55
-38
-39            <!--
-40                 Specifies an Android theme to apply to this Activity as soon as
-41                 the Android process has started. This theme is visible to the user
-42                 while the Flutter UI initializes. After that, this theme continues
-43                 to determine the Window background behind the Flutter UI.
-44            -->
-45            <meta-data
-45-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:27:13-30:17
-46                android:name="io.flutter.embedding.android.NormalTheme"
-46-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:28:15-70
-47                android:resource="@style/NormalTheme" />
-47-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:29:15-52
-48            <!--
-49                 Displays an Android View that continues showing the launch screen
-50                 Drawable until Flutter paints its first frame, then this splash
-51                 screen fades out. A splash screen is useful to avoid any visual
-52                 gap between the end of Android's launch screen and the painting of
-53                 Flutter's first frame.
-54            -->
-55            <meta-data
-55-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:36:13-39:17
-56                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-56-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:37:15-79
-57                android:resource="@drawable/launch_background" />
-57-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:38:15-61
-58
-59            <intent-filter>
-59-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:40:13-43:29
-60                <action android:name="android.intent.action.MAIN" />
-60-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:41:17-68
-60-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:41:25-66
-61
-62                <category android:name="android.intent.category.LAUNCHER" />
-62-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:42:17-76
-62-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:42:27-74
-63            </intent-filter>
-64        </activity>
-65
-66        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
-66-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:45:9-50:20
-66-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:45:19-107
-67            <intent-filter>
-67-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:46:13-49:29
-68                <action android:name="android.intent.action.BOOT_COMPLETED" />
-68-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:47:17-78
-68-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:47:25-76
-69                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-69-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:48:17-83
-69-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:48:25-81
-70            </intent-filter>
-71        </receiver>
-72        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
-72-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:51:9-106
-72-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:51:19-103
-73        <!--
-74             Don't delete the meta-data below.
-75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-76        -->
-77        <meta-data
-77-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:54:9-56:33
-78            android:name="flutterEmbedding"
-78-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:55:13-44
-79            android:value="2" />
-79-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:56:13-30
-80    </application>
-81
-82</manifest>
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:10:5-81
+24-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:10:22-78
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:11:5-80
+25-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:11:22-77
+26
+27    <application
+27-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:13:5-58:19
+28        android:name="io.flutter.app.FlutterApplication"
+28-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:14:9-57
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.2.0] C:\Users\shiva\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:16:9-43
+32        android:label="Clock" >
+32-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:15:9-30
+33        <activity
+33-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:17:9-45:20
+34            android:name="com.example.clock_app.MainActivity"
+34-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:18:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:21:13-163
+36            android:hardwareAccelerated="true"
+36-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:22:13-47
+37            android:launchMode="singleTop"
+37-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:19:13-43
+38            android:theme="@style/LaunchTheme"
+38-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:20:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:23:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:28:13-31:17
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:29:15-70
+49                android:resource="@style/NormalTheme" />
+49-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:30:15-52
+50            <!--
+51                 Displays an Android View that continues showing the launch screen
+52                 Drawable until Flutter paints its first frame, then this splash
+53                 screen fades out. A splash screen is useful to avoid any visual
+54                 gap between the end of Android's launch screen and the painting of
+55                 Flutter's first frame.
+56            -->
+57            <meta-data
+57-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:37:13-40:17
+58                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+58-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:38:15-79
+59                android:resource="@drawable/launch_background" />
+59-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:39:15-61
+60
+61            <intent-filter>
+61-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:41:13-44:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:42:17-68
+62-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:42:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:43:17-76
+64-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:43:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+68-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:46:9-51:20
+68-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:46:19-107
+69            <intent-filter>
+69-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:47:13-50:29
+70                <action android:name="android.intent.action.BOOT_COMPLETED" />
+70-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:48:17-78
+70-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:48:25-76
+71                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+71-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:49:17-83
+71-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:49:25-81
+72            </intent-filter>
+73        </receiver>
+74        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+74-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:52:9-106
+74-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:52:19-103
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+79-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:55:9-57:33
+80            android:name="flutterEmbedding"
+80-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:56:13-44
+81            android:value="2" />
+81-->C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:57:13-30
+82    </application>
+83
+84</manifest>
