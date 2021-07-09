@@ -291,7 +291,6 @@ public final class R {
   }
   public static final class raw {
     public static final int a_long_cold_sting=0x7f090000;
-    public static final int ring_tone=0x7f090001;
   }
   public static final class string {
     public static final int status_bar_notification_info_overflow=0x7f0a0000;

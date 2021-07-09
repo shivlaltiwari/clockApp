@@ -151,7 +151,6 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 mipmap ic_launcher
 raw a_long_cold_sting
-raw ring_tone
 string status_bar_notification_info_overflow
 style LaunchTheme
 style NormalTheme

@@ -35,7 +35,7 @@ class _StopwatchPageState extends State<StopwatchPage> {
     int hours = secondsPassed ~/ (60 * 60);
 
     return Scaffold(
-      backgroundColor: Color(0xFF2D2F41),
+      backgroundColor: Color(0xFF84113D),
       body: Center(
         child: Column(
          // mainAxisSize: MainAxisSize.min,

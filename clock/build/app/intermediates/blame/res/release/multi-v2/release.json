@@ -106,10 +106,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\values-kn_values-kn.arsc.flat",
+            "outputFile": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\values-bn_values-bn.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\values-kn\\values-kn.xml",
+                    "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\values-bn\\values-bn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -121,10 +121,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\values-bn_values-bn.arsc.flat",
+            "outputFile": "C:\\Users\\shiva\\Desktop\\clockApp\\clock\\build\\app\\intermediates\\res\\merged\\release\\values-kn_values-kn.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\values-bn\\values-bn.xml",
+                    "source": "C:\\Users\\shiva\\.gradle\\caches\\transforms-2\\files-2.1\\b6252bb7f30c7dceb20e97dfa6dfae00\\core-1.2.0\\res\\values-kn\\values-kn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

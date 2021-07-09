@@ -30,12 +30,12 @@ class _ClockPageState extends State<ClockPage> {
             flex: 1,
             fit: FlexFit.tight,
             child: Text(
-              'Clock',
+              'Clock ⏰',
               style: TextStyle(
                   fontFamily: 'avenir',
                   fontWeight: FontWeight.w700,
                   color: CustomColors.primaryTextColor,
-                  fontSize: 24),
+                  fontSize: 35),
             ),
           ),
           Flexible(
