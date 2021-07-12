@@ -1,1 +1,1 @@
-{"mName":"debug","mStoreFile":"C:\\Users\\shiva\\.android\\debug.keystore","mStorePassword":"android","mKeyAlias":"AndroidDebugKey","mKeyPassword":"android","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}
+{"mName":"release","mStoreFile":"C:\\Users\\shiva\\Desktop\\clockApp\\clock\\android\\app\\keystore.jks","mStorePassword":"123456","mKeyAlias":"upload","mKeyPassword":"123456","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}

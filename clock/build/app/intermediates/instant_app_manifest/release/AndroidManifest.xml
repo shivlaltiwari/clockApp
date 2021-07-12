@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.clock_app"
+    package="com.tiwari.clock_app"
     android:targetSandboxVersion="2"
     android:versionCode="1"
     android:versionName="1.0.0" >
@@ -27,7 +27,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="Clock" >
         <activity
-            android:name="com.example.clock_app.MainActivity"
+            android:name="com.tiwari.clock_app.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"

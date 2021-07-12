@@ -25,7 +25,7 @@ INJECTED from C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\Android
 INJECTED from C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:1:1-61:12
 INJECTED from C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:1:1-61:12
 	package
-		ADDED from C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:2:5-36
+		ADDED from C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:2:5-35
 		INJECTED from C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -68,7 +68,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\sh
 		ADDED from C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:16:9-43
 	android:name
 		ADDED from C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:14:9-57
-activity#com.example.clock_app.MainActivity
+activity#com.tiwari.clock_app.MainActivity
 ADDED from C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:17:9-45:20
 	android:launchMode
 		ADDED from C:\Users\shiva\Desktop\clockApp\clock\android\app\src\main\AndroidManifest.xml:19:13-43

@@ -25,16 +25,6 @@ class _AlarmPageState extends State<AlarmPage> {
     try{
        _alarmTime = DateTime.now();
        _alarmHelper.initializeDatabase().then((value) {
-      Fluttertoast.showToast(
-        msg: "database intialized",
-        toastLength: Toast.LENGTH_SHORT,
-        gravity: ToastGravity.CENTER,
-        timeInSecForIosWeb: 1,
-        backgroundColor: Colors.red,
-        textColor: Colors.white,
-        fontSize: 16.0
-    );
-
       print('------database intialized------------');
       loadAlarms();
     });
