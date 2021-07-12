@@ -1,2 +1,2 @@
 # Analog clock 
-first version is Available in palystore
+first version is Available in playstore
